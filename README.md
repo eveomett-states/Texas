@@ -71,18 +71,18 @@ Data were cleaned and aggregated in the corresponding jupyter notebook using MGG
 - `ATG18D`: Number of votes for 2018 Democratic attorney general candidate
 - `ATG18R`: Number of votes for 2018 Republican attorney general candidate
 - `ATG18O`: Number of votes for 2018 other party's attorney general candidate
-- `COM18D': Number of votes for 2018 Democratic comptroller candidate
-- `COM18R': Number of votes for 2018 Republican comptroller candidate
-- `COM18O': Number of votes for 2018 other party's comptroller candidate
+- `COM18D`: Number of votes for 2018 Democratic comptroller candidate
+- `COM18R`: Number of votes for 2018 Republican comptroller candidate
+- `COM18O`: Number of votes for 2018 other party's comptroller candidate
 - `GOV18D`: Number of votes for 2018 Democratic gubernatorial candidate
 - `GOV18R`: Number of votes for 2018 Republican gubernatorial candidate
 - `GOV18O`: Number of votes for 2018 other party's gubernatorial candidate
 - `LAN18D`: Number of votes for 2018 Democratic Commissioner of General Land Office candidate
 - `LAN18R`: Number of votes for 2018 Republican Commissioner of General Land Office candidate
 - `LAN18O`: Number of votes for 2018 other party's Commissioner of General Land Office candidate
-- `LTG18D': Number of votes for 2018 Democratic Lieutenant Governor candidate
-- `LTG18R': Number of votes for 2018 Republican Lieutenant Governor candidate
-- `LTG18O': Number of votes for 2018 other party's Lieutenant Governor candidate
+- `LTG18D`: Number of votes for 2018 Democratic Lieutenant Governor candidate
+- `LTG18R`: Number of votes for 2018 Republican Lieutenant Governor candidate
+- `LTG18O`: Number of votes for 2018 other party's Lieutenant Governor candidate
 - `PRE16D`: Number of votes for 2016 Democratic President
 - `PRE16R`: Number of votes for 2016 Republican President
 - `PRE16O`: Number of votes for 2016 other party's President
