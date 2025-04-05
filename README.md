@@ -5,7 +5,7 @@ Use of this project is further governed by the terms of the [Creative Commons At
 
 # Texas Json
 
-This json and shapefile were created by Professor Ellen Veomett and her student Ananya Agarwal using the corresponding jupyter notebook.
+This json and shapefile were created by Professor Ellen Veomett and her student Ananya Agarwal using the corresponding jupyter notebook.  As part of the cleaning process, precincts were nested within counties and small rook adjacencies (under 30.5 m) were changed to queen adjacencies.
 
 # **Sources**
 
@@ -25,18 +25,20 @@ Obtain the following data from Restricting Data Hub
 
 [2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-texas-precinct-and-election-results/)**:**  VEST 2016 Texas precinct and election results
 
+[2020 County data](https://redistrictingdatahub.org/dataset/texas-county-pl-94171-2020/):  from 2020 Census Redistricting Data (P.L. 94-171) Shapefiles
+
 # **Processing**
 
 Data were cleaned and aggregated in the corresponding jupyter notebook using MGGG’s python library [maup](https://github.com/mggg/maup). 
 
 ## Metadata
-- `CNTY20`: County number
-- `COLOR20`: Column from Vest 2020 election data (has range of integers from 1 to 7)
-- `PREC20`: Precinct number
-- `PCTKEY20`: Precinct FIPS code from 2020
-- `CNTYKEY20`: County code
-- `G20VR20`: Voter registration
-- `G20SSVR20`: Spanish surname voter registration
+- `CNTY18`: County number
+- `COLOR18`: Column from Vest 2020 election data (has range of integers from 1 to 7)
+- `PREC18`: Precinct number
+- `PCTKEY18`: Precinct FIPS code from 2018
+- `CNTYKEY18`: County code
+- `G20VR18`: Voter registration
+- `G20SSVR18`: Spanish surname voter registration
 - `CD`: Congressional district for 2021 enacted plan
 - `SEND`: State Senate district for 2021 State Senate Adopted Plan
 - `HDIST`: State House district for 2021 State House of Representatives Districts Plan
